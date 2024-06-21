@@ -87,3 +87,29 @@ hr{
     font-size: 14px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 768px){
+    .footer-info{
+        flex-direction: column;
+    }
+
+    .instruction{
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .contact{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact::before{
+        display: none;
+    }
+
+    .footer-menu{
+        width: 100%;
+    }
+    
+}
